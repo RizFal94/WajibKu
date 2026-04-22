@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "WajibKu",
+    "slug": "wajibku",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/WajibkuIcon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/WajibkuIcon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A1628"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0A1628"
+      },
+      "package": "com.wajibku.app",
+      "versionCode": 1,
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "HIGH_SAMPLING_RATE_SENSORS",
+        "POST_NOTIFICATIONS"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "WajibKu butuh lokasi untuk menghitung jadwal sholat yang akurat."
+        }
+      ],
+      [
+        "expo-sensors",
+        {
+          "motionPermission": "WajibKu butuh sensor untuk menampilkan arah kiblat."
+        }
+      ],
+      "expo-notifications"
+    ]
+  }
+}
