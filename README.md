@@ -8,7 +8,7 @@
 
 ---
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 | Fitur | Deskripsi |
 |-------|-----------|
@@ -38,7 +38,7 @@ WajibKu/
 
 ---
 
-## 📂 Struktur Proyek
+## Struktur Proyek
 
 ```
 WajibKu/
@@ -67,7 +67,7 @@ WajibKu/
 
 ---
 
-## 🚀 Cara Menjalankan
+## Cara Menjalankan
 
 ### Prasyarat
 
@@ -106,7 +106,7 @@ cd android
 
 ---
 
-## 📦 Memasang Widget Android
+## Memasang Widget Android
 
 Setelah install APK:
 
